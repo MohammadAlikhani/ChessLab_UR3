@@ -14,13 +14,13 @@ find_package(tf2_ros REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(aruco_msgs REQUIRED)
 
-set(srv_files
-   "srv/GetMarkerTf.srv"
-)
+#set(srv_files
+#   "srv/GetMarkerTf.srv"
+#)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  #  ${msg_files}
-   ${srv_files}
+  "srv/GetMarkerTf.srv"
+ # ${srv_files}
   DEPENDENCIES geometry_msgs
 )
 
