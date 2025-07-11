@@ -71,17 +71,20 @@ The repository contains the ROS nodes, libraries, and scripts for the chess-play
 - YAML output files (e.g., `aruco_poses.yaml`, board state YAML) for storing marker and board data.
 
 
-
-### Importat Notes:
-**aruco_broadcaster**: As we discussed After our presentation we have add the aruco_broadcaster as dependency in chesslab_setup2 which or avoiding possible compile errors We Uploaded that seperatly. NO CHANGES WHERE MADE IN "aruco_broadcaster" NODES AND FUNCTIONALLITY.
-
 [aruco_broadcaster](https://drive.google.com/file/d/1537hm3XQs6YSUC_E06nzRHWWZKO6eu-X/view?usp=sharing)
 
 [Project Video](https://drive.google.com/file/d/1cb08yu_hgBxhSI6n_dHF99slnW_3weM7/view?usp=sharing)
 
-[Presentation Slides](https://docs.google.com/presentation/d/1Qv62SCNRYO8K9R3q-SKJjQc3z_lkAdFHY56AeW1iGN8/edit?usp=sharing)
+[Presentation Slides](https://drive.google.com/file/d/1WSWgCSHS3WsIzgwHeuwGZK6BWWuKif3o/view?usp=sharing)
+
+
 ## Getting Started
 1. **Clone the Repository**:
+
+2. **Build the packages**:
+  - Build the aruco_broadcaster: `colcon build --packages-select aruco_broadcaster`
+  - Source the workspace: `source install/setup.bash`
+  - Build rest of the packages: `colcon build`  
   
 3. **Run launch file and Node**:
    - Prepare the enviroment: `ros2 launch chesslab_setup2 combined_aruco_listener.launch.py` 
