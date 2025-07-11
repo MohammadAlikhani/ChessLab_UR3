@@ -82,9 +82,9 @@ The repository contains the ROS nodes, libraries, and scripts for the chess-play
 1. **Clone the Repository**:
 
 2. **Build the packages**:
-  - Build the aruco_broadcaster: `colcon build --packages-select aruco_broadcaster`
-  - Source the workspace: `source install/setup.bash`
-  - Build rest of the packages: `colcon build`  
+   - Build the aruco_broadcaster: `colcon build --packages-select aruco_broadcaster`
+   - Source the workspace: `source install/setup.bash`
+   - Build rest of the packages: `colcon build`  
   
 3. **Run launch file and Node**:
    - Prepare the enviroment: `ros2 launch chesslab_setup2 combined_aruco_listener.launch.py` 
