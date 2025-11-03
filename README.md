@@ -1,7 +1,7 @@
 # ROS Chess-Playing Robot Project
 
 ## Introduction
-This project, developed by Mohammad Alikhani Najafabadi implements a robotic system using the **Robot Operating System (ROS)** to play chess on a physical board. The system integrates chessboard state detection, and robotic manipulation to detect chess pieces, understand the board state, and execute physical moves using a robotic arm (UR3 with a Robotiq-85 gripper).
+This project, developed by Marco Alikhani Najafabadi implements a robotic system using the **Robot Operating System (ROS)** to play chess on a physical board. The system integrates chessboard state detection, and robotic manipulation to detect chess pieces, understand the board state, and execute physical moves using a robotic arm (UR3 with a Robotiq-85 gripper).
 
 ## Project Goals
 The primary objectives of the system are:
